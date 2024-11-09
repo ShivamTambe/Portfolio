@@ -1,0 +1,82 @@
+.section{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.project{
+    max-width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project img{
+    width: 100%;
+    border-radius: 20px;
+}
+.sec_mid{
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+.about{
+    font-size: 40px;
+    margin-top: 72px;
+}
+p{
+    color: #374151;
+    letter-spacing: .36px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+.pro_images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: auto auto; /* auto rows to fit content */
+    gap: 10px;
+    margin-top: 72px;
+}
+.pro_images div {
+    object-fit: cover;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.pro_images div img{
+    width: 100%; /* make images responsive */
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover; /* Ensures the image covers the entire div without stretching */
+    object-position: center;
+}
+
+/* To ensure the third image spans the full width */
+.pro_images div:nth-child(3) {
+    grid-column: span 2;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 765px) {
+    .pro_images{
+        grid-template-columns: 1fr;
+    }
+    .pro_images div {
+        height: auto;
+    }
+    .pro_images div:nth-child(3) {
+        grid-column: auto;
+    }
+    .sec_mid{
+        font-size: 48px;
+    }
+    .about{
+        font-size: 32px;
+    }
+    .section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

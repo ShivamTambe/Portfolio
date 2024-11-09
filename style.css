@@ -163,6 +163,7 @@ body{
     width: 100%;
     max-width: 1550px;
     grid-row-gap: 40px;
+    cursor: pointer;
 }
 .sec2 img{
     width: 100%;
@@ -411,6 +412,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    cursor: pointer;
 }
 .sec6_title{
     letter-spacing: -.02em;
@@ -578,6 +580,7 @@ body{
 .nav2 > div:nth-child(2){
     display: none;
 }
+
 
     /* RESPONSIVE */
 
