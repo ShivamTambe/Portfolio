@@ -19,7 +19,7 @@ body{
 }
 .innav{
     width: 100%;
-    /* max-width: 1440px; */
+    max-width: 1550px;
     padding-left: 72px;
     padding-right: 72px;
     justify-content: space-between;
@@ -63,7 +63,7 @@ body{
     padding-top: 72px;
     padding-bottom: 72px;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     position: relative;
     overflow: hidden;
 }
@@ -80,7 +80,7 @@ body{
     width: 100%;
     display: flex;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     padding-left: 72px;
     padding-right: 72px;
 }
@@ -98,14 +98,29 @@ body{
 }
 .sec_btm{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     justify-content: space-between;
     align-items: center;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
-.sec_btm div{
+/* .sec_btm div{
+    font-size: 22px;
+    line-height: 130%;
+    padding: 12px 20px;
+    border: 1px solid #0000;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 100px;
+    letter-spacing: .32px;
+    white-space: nowrap;
+    font-weight: 600;
+    text-align: center;
+    padding: 24px 48px;
+} */
+.talk_2{
     font-size: 22px;
     line-height: 130%;
     padding: 12px 20px;
@@ -136,7 +151,7 @@ body{
     display: flex;
     position: relative;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     padding-left: 72px;
     padding-right: 72px;
     grid-row-gap: 40px;
@@ -146,7 +161,7 @@ body{
     display: flex;
     position: relative;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     grid-row-gap: 40px;
 }
 .sec2 img{
@@ -159,7 +174,7 @@ body{
 }
 .sec2_comm{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -201,7 +216,7 @@ body{
 
 .sec3{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     padding-left: 72px;
     padding-right: 72px;
 }
@@ -292,7 +307,7 @@ body{
 
 .sec5{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     padding-left: 72px;
     padding-right: 72px;
     grid-column-gap: 40px;
@@ -367,7 +382,7 @@ body{
 
 .sec6{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     padding-left: 72px;
     padding-right: 72px;
     display: flex;
@@ -377,7 +392,7 @@ body{
 }
 .sec6_top{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1550px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -487,7 +502,7 @@ body{
 .footer{
     background-color: black;
     color: white;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 .foot{
     align-items: normal;

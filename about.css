@@ -1,0 +1,87 @@
+.talk{
+    font-size: 22px;
+    line-height: 130%;
+    padding: 12px 20px;
+    border: 1px solid #0000;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 100px;
+    letter-spacing: .32px;
+    white-space: nowrap;
+    font-weight: 600;
+    text-align: center;
+    padding: 24px 48px;
+}
+.abt_sec{
+    display: flex;
+    justify-content: space-between;
+}
+.abt_sec_r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.abt_sec_r p{
+    font-weight: 400;
+    letter-spacing: .02em;
+    font-size: 22px;
+    line-height: 130%;
+    color: #374151;
+}
+.expp h5{
+    letter-spacing: -.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inter Tight, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.exp_sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.exptitle{
+    letter-spacing: -.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inter Tight, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.exps{
+    border-top: 1px solid #e5e7eb;
+    padding-top: 24px;
+}
+.expp{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e5e7eb;
+}
+.expp div{
+    display: flex;
+    justify-content: space-between;
+}
+.expp div p{
+    letter-spacing: .02em;
+    font-family: Inter Tight, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+}
+.sec77{
+    border-top: 1px solid #e5e7eb;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .abt_sec{
+        flex-direction: column;
+    }
+}
